@@ -1,4 +1,4 @@
-require 'woe.remap'
+require('woe.remap')
 
 -- Make line numbers default
 vim.opt.number = true

@@ -2,9 +2,11 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {
-  'NStefan002/screenkey.nvim',
-  cmd = 'Screenkey',
-  version = '*',
-  config = true,
-}
+return function(use)
+  use {
+    'NStefan002/screenkey.nvim',
+    cmd = 'Screenkey',
+    version = '*',
+    config = true,
+  }
+end
